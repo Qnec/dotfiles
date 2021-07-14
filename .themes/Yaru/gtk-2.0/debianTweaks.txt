@@ -1,0 +1,13 @@
+1. there is no missing firmware for amdgpu
+2. gnome runs in x11
+3. install printer firmware
+  a. make sure prints in right order
+  b. cups-pdf
+5. flatpak initial setup
+4. turn off discord notification sounds
+5. maybe set grub gfx resolution
+6. enable hardware acceleration in chrome
+7. install piper (for mouse)
+8. install libvirt/qemu/kvm
+9. install featherpad
+10. install file-roller
