@@ -25,5 +25,5 @@ sudo apt install fonts-crosextra-* fonts-dejavu-* fonts-droid-fallback fonts-fre
 
 git clone https://github.com/Qnec/dotfiles.git
 
-cp -R ./xfceConfig-main/.config ~/
-cp ./xfceConfig-main/.bash_aliases ~/
+cp -R ./dotfiles-main/.config ~/
+cp ./dotfiles-main/.bash_aliases ~/
