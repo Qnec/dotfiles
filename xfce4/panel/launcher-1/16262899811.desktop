@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=rofi
+Comment=
+Exec=rofi -show combi
+Icon=org.xfce.panel.launcher
+Path=~/
+Terminal=false
+StartupNotify=false
