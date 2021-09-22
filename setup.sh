@@ -25,7 +25,7 @@ echo fonts
 sudo apt install --no-install-recommends fonts-crosextra-* fonts-dejavu-* fonts-droid-fallback fonts-freefont-ttf fonts-liberation2 fonts-liberation fonts-linuxlibertine fonts-noto-core fonts-noto-extra fonts-noto-mono fonts-noto-ui-core fonts-opensymbol fonts-quicksand fonts-sil-gentium-basic fonts-sil-gentium fonts-urw-base35 fonts-wine gsfonts libfonts-java xfonts-100dpi xfonts-75dpi xfonts-base xfonts-encodings xfonts-scalable xfonts-utils
 #apps i use
 echo apps
-sudo apt install --no-install-recommends featherpad libreoffice file-roller htop imagemagick freecad blender filezilla iotop mangohud mc mediainfo mpv ncdu needrestart nmap nodejs npm default-jdk openssh-client openssh-server pciutils python3-pip python3-venv s-tui screen usbutils virt-manager virtinst curl wget wine zip apache2 deja-dup git obs-studio torbrowser-launcher xosview evince shotwell firefox
+sudo apt install --no-install-recommends featherpad libreoffice file-roller htop imagemagick freecad blender filezilla iotop mangohud mc mediainfo mpv ncdu needrestart nmap nodejs npm default-jdk openssh-client openssh-server pciutils python3-pip python3-venv s-tui screen usbutils virt-manager virtinst curl wget wine zip apache2 deja-dup git obs-studio torbrowser-launcher xosview evince shotwell firefox-esr
 flatpak install flathub com.discordapp.Discord
 git clone https://github.com/Qnec/dotfiles.git
 
