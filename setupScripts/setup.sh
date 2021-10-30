@@ -8,9 +8,9 @@ chmod +x configurationFilesDown.sh
 ./configurationFilesDown.sh
 chmod +x ./dotfiles/setupScripts/*
 
-./dotfiles/defaultConfigurationFilesInstall.sh
-./dotfiles/systemStuff.sh
-./dotfiles/printerStuff.sh
-./dotfiles/iconsAndFonts.sh
-./dotfiles/applicationsIUse.sh
-./dotfiles/DisplayManager.sh
+./dotfiles/setupScripts/defaultConfigurationFilesInstall.sh
+./dotfiles/setupScripts/systemStuff.sh
+./dotfiles/setupScripts/printerStuff.sh
+./dotfiles/setupScripts/iconsAndFonts.sh
+./dotfiles/setupScripts/applicationsIUse.sh
+./dotfiles/setupScripts/DisplayManager.sh
