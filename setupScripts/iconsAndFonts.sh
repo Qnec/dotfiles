@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo themes
 sudo apt install --no-install-recommends faba-icon-theme
 #fonts
