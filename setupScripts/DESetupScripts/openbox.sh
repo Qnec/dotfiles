@@ -3,6 +3,6 @@
 sudo apt install openbox
 #lost my openbox config file, whoops
 
-./ModuleScripts/picom.sh
-./ModuleScripts/rofi.sh
-./ModuleScripts/feh.sh
+./dotfiles/setupScripts/ModuleScripts/picom.sh
+./dotfiles/setupScripts/ModuleScripts/rofi.sh
+./dotfiles/setupScripts/ModuleScripts/feh.sh

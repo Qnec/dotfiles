@@ -6,11 +6,17 @@ sudo apt install git
 wget https://raw.githubusercontent.com/Qnec/dotfiles/main/setupScripts/configurationFilesDown.sh
 chmod +x configurationFilesDown.sh
 ./configurationFilesDown.sh
-chmod +x ./dotfiles/setupScripts/*
+chmod -R +x ./dotfiles/setupScripts/*
 
-./dotfiles/setupScripts/defaultConfigurationFilesInstall.sh
-./dotfiles/setupScripts/systemStuff.sh
-./dotfiles/setupScripts/printerStuff.sh
-./dotfiles/setupScripts/iconsAndFonts.sh
-./dotfiles/setupScripts/applicationsIUse.sh
+echo "Installing DM"
 ./dotfiles/setupScripts/DisplayManager.sh
+echo "Installing configuration files"
+./dotfiles/setupScripts/defaultConfigurationFilesInstall.sh
+echo "x and flatpak"
+./dotfiles/setupScripts/systemStuff.sh
+echo "Printer stuff"
+./dotfiles/setupScripts/printerStuff.sh
+echo "Icons and Fonts"
+./dotfiles/setupScripts/iconsAndFonts.sh
+echo "Applications"
+./dotfiles/setupScripts/applicationsIUse.sh
