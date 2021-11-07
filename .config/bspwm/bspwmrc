@@ -7,13 +7,13 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 #xrandr
 
-xrandr --dpi 192
+#xrandr --dpi 192
 #bspc
 
 bspc monitor -d I II III IV
 
-bspc config border_width         2
-bspc config window_gap          12
+bspc config border_width          2
+bspc config window_gap            0
 
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true

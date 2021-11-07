@@ -1,6 +1,6 @@
 configuration {
  modi: "window,drun,combi";
- theme: "android_notifications";
+ theme: "android_notification";
  combi-modi: "window,drun";
  show-icons: true;
 }
