@@ -1,7 +1,7 @@
 #!/bin/sh
 
-yes | sudo apt update
-yes | sudo apt full-upgrade
+sudo apt update
+sudo apt full-upgrade
 yes | sudo apt install git
 wget https://raw.githubusercontent.com/Qnec/dotfiles/main/setupScripts/configurationFilesDown.sh
 chmod +x configurationFilesDown.sh
