@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt install openbox
+yes | sudo apt install openbox
 #lost my openbox config file, whoops
 
 ./dotfiles/setupScripts/ModuleScripts/picom.sh

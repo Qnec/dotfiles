@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo apt install bspwm sxhkd
+yes | sudo apt install bspwm sxhkd
 cp -R ./dotfiles/.config/bspwm ~/.config/bspwm
 chmod +x ~/.config/bspwm/bspwmrc
 cp -R ./dotfiles/.config/sxhkd ~/.config/sxhkd

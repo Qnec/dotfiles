@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo apt install lightdm slick-greeter
+yes | sudo apt install lightdm slick-greeter
