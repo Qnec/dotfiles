@@ -10,7 +10,7 @@ secondary = #e60053
 alert = #bd2c40
 
 
-[bar/example]
+[bar/main]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
 height = 27
@@ -38,7 +38,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = "Bistream Vera Sans:pixelsize=10;1"
 
 modules-left = bspwm
-modules-center = 
+modules-center =
 modules-right = date eth pulseaudio
 
 tray-position = right
@@ -104,7 +104,7 @@ date = %a %b %d
 
 time = %H:%M:%S
 
-format-prefix = 
+format-prefix =
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
